@@ -1,12 +1,20 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 
 //  De-structuring Player details and reusing props
-const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
+const Player = ({
+  id,
+  name,
+  team,
+  nationality,
+  jerseyNumber,
+  age,
+  imageUrl,
+}) => {
   return (
     <Card style={{ width: "18rem", margin: "10px" }}>
       <Card.Img variant="top" src={imageUrl} />
       <Card.Body>
+        <Card.Title>{id}</Card.Title>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
           <strong>Team:</strong> {team} <br />
@@ -26,7 +34,7 @@ Player.defaultProps = {
   nationality: "Unknown Nationality",
   jerseyNumber: 0,
   age: 0,
-  imageUrl: "https://example.com/default.jpg",
+  imageUrl: "https://default.jpg",
 };
 
 export default Player;

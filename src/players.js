@@ -2,6 +2,7 @@
 
 const Players = [
   {
+    id: 1,
     name: "Cristiano Ronaldo",
     team: "AL-NASSR FC",
     nationality: "Portugal",
@@ -11,6 +12,7 @@ const Players = [
       "https://b.fssta.com/uploads/application/soccer/headshots/885.vresize.350.350.medium.14.png",
   },
   {
+    id: 2,
     name: "Lionel Messi",
     team: " INTER MIAMI CF",
     nationality: "Argentina",
@@ -21,6 +23,7 @@ const Players = [
   },
 
   {
+    id: 3,
     name: "Neymar Jr",
     team: "AL-HILAL",
     nationality: "Brazil",
@@ -30,6 +33,7 @@ const Players = [
       "https://b.fssta.com/uploads/application/soccer/headshots/713.vresize.350.350.medium.34.png",
   },
   {
+    id: 4,
     name: "Kylian Mbappe",
     team: "Paris Saint-Germain",
     nationality: "France",
